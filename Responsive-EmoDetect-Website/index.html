@@ -11,7 +11,7 @@
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
         
         <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -30,14 +30,14 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">
+                            <a href="#home" class="nav__link active-link">
                                 <i class="ri-home-5-line"></i> Главная
                             </a>
                         </li>
 
                         <li class="nav__item">
                             <a href="#features" class="nav__link">
-                                <i class="ri-lightbulb-flash-line"></i> Функциональность
+                                <i class="ri-compasses-2-fill"></i> Описание
                             </a>
                         </li>
 
@@ -49,7 +49,7 @@
 
                         <li class="nav__item">
                             <a href="#demo" class="nav__link">
-                                <i class="ri-slideshow-3-line"></i> Демонстрация работы
+                                <i class="ri-slideshow-3-line"></i> Демонстрация
                             </a>
                         </li>
 
@@ -74,7 +74,7 @@
 
                 <div class="nav__buttons">
                     <!-- Theme change button -->
-                    <!-- <i class="ri-moon-clear-line change-theme" id="theme-button"></i> -->
+                    <i class="ri-moon-clear-line change-theme" id="theme-button"></i>
 
                     <!-- Toggle button -->
                      <div class="nav__toggle" id="nav-toggle">
@@ -193,10 +193,208 @@
                 </div>
             </section>
 
+            <!--==================== FEATURES ====================-->
+            <section class="features section" id="features">
+                <h2 class="section__title">Описание стартап-проекта</h2>
+                <span class="section__subtitle">Что делает наш продукт особенным и незаменимым?</span>
+
+                <div class="features__container container grid section__border">
+                    <!--==================== FEATURES 1 ====================-->
+                    <div class="features__content">
+                        <h3 class="features__title">
+                            <i class="ri-compasses-2-fill"></i> Функциональные возможности
+                        </h3>
+
+                        <div class="features__info">
+                            <h3 class="features__name">Анализ видео- и аудиоданных</h3>
+                            <span class="features__description">Веб-приложение умело справляется с анализом видео- и аудиоданных, обеспечивая точное распознавание эмоций. Всё работает автономно, без лишних сложностей.</span>
+                        </div>
+
+                        <div class="features__info">
+                            <h3 class="features__name">Активация устройств захвата</h3>
+                            <span class="features__description">Нажал одну кнопку — и приложение само решит, что нужно: камера или микрофон, в зависимости от того, с чем работаешь (видео или аудио).</span>
+                        </div>
+
+                        <div class="features__info">
+                            <h3 class="features__name">Распознавание эмоций в реальном времени</h3>
+                            <span class="features__description">Приложение мгновенно анализирует ключевые точки на лице и его выражение, показывая эмоции в реальном времени. Эффективная обратная связь прямо во время записи!</span>
+                        </div>
+                    </div>
+
+                    <!--==================== FEATURES 2 ====================-->
+                    <div class="features__content">
+                        <h3 class="features__title">
+                            <i class="ri-lightbulb-flash-line"></i> Дополнительные фишки
+                        </h3>
+
+                        <div class="features__info">
+                            <h3 class="features__name">Наглядные результаты и графики</h3>
+                            <span class="features__description">Все данные представлены в красивых и понятных графиках. Нужно сохранить результаты? Без проблем — доступны форматы PNG и SVG.</span>
+                        </div>
+
+                        <div class="features__info">
+                            <h3 class="features__name">Простой и дружелюбный интерфейс</h3>
+                            <span class="features__description">Интуитивно понятное управление — не нужно быть IT-экспертом, чтобы использовать все возможности.</span>
+                        </div>
+
+                        <div class="features__info">
+                            <h3 class="features__name">Точность на высоте</h3>
+                            <span class="features__description">Наше решение стабильно достигает 85% точности на обучающих данных и 70% на реальных задачах.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <img src="assets/img/shape-circle.svg" alt="features image" class="features__img">
+            </section>
+
+            <!--==================== ACHIEVEMENTS ====================-->
+            <section class="achievements section" id="achievements">
+                <h2 class="section__title">Достижения стартап-проекта</h2>
+                <span class="section__subtitle">Наши ключевые успехи на пути к цели</span>
+                
+                <div class="achievements__container container grid section__border">
+
+                    <div class="achievements__card">
+                        <i class="ri-trophy-line"></i>
+                        <h2 class="achievements__title">
+                            Вошёл в ТОП-10 лучших стартапов
+                        </h2>
+                        <p class="achievements__description">
+                            на федеральном проекте
+                            «Акселерационная программа поддержки проектных команд и студенческих инициатив для формирования инновационных продуктов»
+                        </p>
+                        <p class="achievements__date">
+                            Декабрь 2023 г., <br>
+                            ФГБОУ ВО «КГЭУ», Казань
+                        </p>
+                        <div class="achievements__border"></div>
+                    </div>
+
+                    <div class="achievements__card">
+                        <i class="ri-trophy-line"></i>
+                        <h2 class="achievements__title">
+                            Лучшая ВКР <br>
+                            в КГЭУ
+                        </h2>
+                        <p class="achievements__description">
+                            Выпускная квалификационная работа на тему данного стартап-проекта получила грамоту за лучшую выпускную квалификационную работу в ФГБОУ ВО «КГЭУ»
+                        </p>
+                        <p class="achievements__date">
+                            11 июля 2024 г., <br>
+                            ФГБОУ ВО «КГЭУ», Казань
+                        </p>
+                        <div class="achievements__border"></div>
+                    </div>
+
+                    <div class="achievements__card">
+                        <i class="ri-trophy-line"></i>
+                        <h2 class="achievements__title">
+                            Победитель конкурса <br>
+                            «Студенческий стартап»
+                        </h2>
+                        <p class="achievements__description">
+                            в рамках федерального проекта «Платформа университетского технологического предпринимательства»
+                        </p>
+                        <p class="achievements__date">
+                            18 июля 2024 г.
+                        </p>
+                        <div class="achievements__border"></div>
+                    </div>
+
+                    <div class="achievements__card">
+                        <i class="ri-trophy-line"></i>
+                        <h2 class="achievements__title">
+                            Победитель конкурса ВКР <br>
+                            «Бриллианты науки-2024»
+                        </h2>
+                        <p class="achievements__description">
+                            обучающихся ПО и ВО <br>
+                            в номинации <br>
+                            «Научная перспектива»
+                        </p>
+                        <p class="achievements__date">
+                            24 июля 2024 г.
+                        </p>
+                        <div class="achievements__border"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== DEMO ====================-->
+            <section class="demo section" id="demo">
+                <h2 class="section__title">Демонстрация возможностей</h2>
+                <span class="section__subtitle">Узнайте, как работает наше веб-приложение</span>
+
+                <div class="container section__border">
+                    <div class="demo__container swiper">
+                        <div class="swiper-wrapper">
+                            <!--==================== DEMO 1 ====================-->
+                            <div class="demo__content swiper-slide">
+                                <video src="assets/img/demo/demo_video_marketing.mp4" controls class="demo__video">
+                                    Ваш браузер не поддерживает видео-теги.
+                                </video>
+
+                                <div>
+                                    <span class="demo__subtitle">На примере маркетинга и рекламы</span>
+                                    <h1 class="demo__title">Распознавание эмоций на видео</h1>
+
+                                    <a href="#" class="demo__button">
+                                        Подробнее <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!--==================== DEMO 2 ====================-->
+                            <div class="demo__content swiper-slide">
+                                <video src="assets/img/demo/demo_audio_HR.mp4" controls class="demo__video">
+                                    Ваш браузер не поддерживает видео-теги.
+                                </video>
+
+                                <div>
+                                    <span class="demo__subtitle">На примере HR</span>
+                                    <h1 class="demo__title">Распознавание эмоций в аудио</h1>
+
+                                    <a href="#" class="demo__button">
+                                        Подробнее <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            
+                            <!--==================== DEMO 3 ====================-->
+                            <div class="demo__content swiper-slide">
+                                <img src="assets/img/demo/demo3.gif" alt="demo image" class="demo__img">
+
+                                <div>
+                                    <span class="demo__subtitle">В реальном времени</span>
+                                    <h1 class="demo__title">Распознавание эмоций на видео</h1>
+
+                                    <a href="#" class="demo__button">
+                                        Подробнее <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Swipper arrows -->
+                        <div class="swiper-button-next">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+
+                        <div class="swiper-button-prev">
+                            <i class="ri-arrow-left-s-line"></i>
+                        </div>
+
+                        <!-- Swipper pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
             <!--==================== TOOLSET ====================-->
             <section class="toolset section" id="toolset">
-                <h2 class="section__title">Используемый инструментарий</h2>
-                <span class="section__subtitle">Набор инструментов для реализации проекта</span>
+                <h2 class="section__title">Технологический стек</h2>
+                <span class="section__subtitle">Инструменты, которые помогают нам творить магию</span>
 
                 <div class="toolset__container container grid section__border">
                     <!--==================== TOOLSET 1 ====================-->
@@ -216,26 +414,18 @@
 
                             <div class="toolset__data">
                                 <div class="toolset__blob">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Toolset image">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" alt="Toolset image">
                                 </div>
-                                <h3 class="toolset__name">Python</h3>
-                                <span class="toolset__subtitle">3.11.5</span>
+                                <h3 class="toolset__name">TensorFlow</h3>
+                                <span class="toolset__subtitle">2.12.0</span>
                             </div>
 
                             <div class="toolset__data">
                                 <div class="toolset__blob">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Toolset image">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original.svg" alt="Toolset image">
                                 </div>
-                                <h3 class="toolset__name">Python</h3>
-                                <span class="toolset__subtitle">3.11.5</span>
-                            </div>
-
-                            <div class="toolset__data">
-                                <div class="toolset__blob">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Toolset image">
-                                </div>
-                                <h3 class="toolset__name">Python</h3>
-                                <span class="toolset__subtitle">3.11.5</span>
+                                <h3 class="toolset__name">Keras</h3>
+                                <span class="toolset__subtitle">2.12.0</span>
                             </div>
                         </div>
                     </div>
@@ -243,90 +433,329 @@
                     <!--==================== TOOLSET 2 ====================-->
                     <div class="toolset__content">
                         <h3 class="toolset__title">
-                            <i class="ri-tools-line"></i> Нейросети
+                            <i class="ri-tools-line"></i> Анализ данных
                         </h3>
 
                         <div class="toolset__info">
                             <div class="toolset__data">
                                 <div class="toolset__blob">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Toolset image">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" alt="Toolset image">
                                 </div>
-                                <h3 class="toolset__name">Python</h3>
-                                <span class="toolset__subtitle">3.11.5</span>
+                                <h3 class="toolset__name">NumPy</h3>
+                                <span class="toolset__subtitle">1.23.5</span>
                             </div>
 
                             <div class="toolset__data">
                                 <div class="toolset__blob">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Toolset image">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="Toolset image">
                                 </div>
-                                <h3 class="toolset__name">Python</h3>
-                                <span class="toolset__subtitle">3.11.5</span>
+                                <h3 class="toolset__name">Pandas</h3>
+                                <span class="toolset__subtitle">2.0.2</span>
                             </div>
 
                             <div class="toolset__data">
                                 <div class="toolset__blob">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Toolset image">
+                                    <img src="assets/img/toolset/SciPy.svg" alt="Toolset image">
                                 </div>
-                                <h3 class="toolset__name">Python</h3>
-                                <span class="toolset__subtitle">3.11.5</span>
-                            </div>
-
-                            <div class="toolset__data">
-                                <div class="toolset__blob">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Toolset image">
-                                </div>
-                                <h3 class="toolset__name">Python</h3>
-                                <span class="toolset__subtitle">3.11.5</span>
+                                <h3 class="toolset__name">SciPy</h3>
+                                <span class="toolset__subtitle">1.10.1</span>
                             </div>
                         </div>
                     </div>
 
+                    <!--==================== TOOLSET 3 ====================-->
+                    <div class="toolset__content">
+                        <h3 class="toolset__title">
+                            <i class="ri-tools-line"></i> Видео и аудио
+                        </h3>
+
+                        <div class="toolset__info">
+                            <div class="toolset__data">
+                                <div class="toolset__blob">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" alt="Toolset image">
+                                </div>
+                                <h3 class="toolset__name">OpenCV</h3>
+                                <span class="toolset__subtitle">4.7.0</span>
+                            </div>
+
+                            <div class="toolset__data">
+                                <div class="toolset__blob">
+                                    <img src="assets/img/toolset/Dlib.png" alt="Toolset image">
+                                </div>
+                                <h3 class="toolset__name">Dlib</h3>
+                                <span class="toolset__subtitle">19.24.4</span>
+                            </div>
+
+                            <div class="toolset__data">
+                                <div class="toolset__blob">
+                                    <img src="assets/img/toolset/Pillow.png" alt="Toolset image">
+                                </div>
+                                <h3 class="toolset__name">Pillow (PIL)</h3>
+                                <span class="toolset__subtitle">9.5.0</span>
+                            </div>
+
+                            <div class="toolset__data">
+                                <div class="toolset__blob">
+                                    <img src="assets/img/toolset/Librosa.png" alt="Toolset image">
+                                </div>
+                                <h3 class="toolset__name">Librosa</h3>
+                                <span class="toolset__subtitle">0.10.1</span>
+                            </div>
+
+                            <div class="toolset__data">
+                                <div class="toolset__blob">
+                                    <img src="assets/img/toolset/PyAudio.png" alt="Toolset image">
+                                </div>
+                                <h3 class="toolset__name">PyAudio</h3>
+                                <span class="toolset__subtitle">0.2.14</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== TOOLSET 4 ====================-->
+                    <div class="toolset__content">
+                        <h3 class="toolset__title">
+                            <i class="ri-tools-line"></i> Веб-приложение и интерфейс
+                        </h3>
+
+                        <div class="toolset__info">
+                            <div class="toolset__data">
+                                <div class="toolset__blob">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="Toolset image">
+                                </div>
+                                <h3 class="toolset__name">HTML5</h3>
+                            </div>
+
+                            <div class="toolset__data">
+                                <div class="toolset__blob">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Toolset image">
+                                </div>
+                                <h3 class="toolset__name">CSS3</h3>
+                            </div>
+
+                            <div class="toolset__data">
+                                <div class="toolset__blob">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="Toolset image">
+                                </div>
+                                <h3 class="toolset__name">JavaScript</h3>
+                            </div>
+
+                            <div class="toolset__data">
+                                <div class="toolset__blob">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" alt="Toolset image">
+                                </div>
+                                <h3 class="toolset__name">Flask</h3>
+                                <span class="toolset__subtitle">3.0.2</span>
+                            </div>
+
+                            <div class="toolset__data">
+                                <div class="toolset__blob">
+                                    <img src="assets/img/toolset/d3-js.svg" alt="Toolset image">
+                                </div>
+                                <h3 class="toolset__name">D3.js</h3>
+                                <span class="toolset__subtitle">4.13.0</span>
+                            </div>
+
+                            <div class="toolset__data">
+                                <div class="toolset__blob">
+                                    <img src="assets/img/toolset/altair.png" alt="Toolset image">
+                                </div>
+                                <h3 class="toolset__name">Altair</h3>
+                                <span class="toolset__subtitle">5.3.0</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
-            <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section" id="qualification">
-                
-            </section>
+            <!--==================== IMPLEMENTATION ====================-->
+            <section class="implementation section">
+                <h2 class="section__title">Внедрение</h2>
+                <span class="section__subtitle">Примеры успешной интеграции</span>
 
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
-            </section>
+                <div class="container section__border">
+                    <div class="implementation__container swiper">
+                        <div class="swiper-wrapper">
+                            <!--==================== IMPLEMENTATION 1 ====================-->
+                            <div class="implementation__content swiper-slide">
+                                <p class="implementation__description">
+                                    Веб-сервис для распознавания эмоций на основе видео- и аудиоданных был успешно внедрён
+                                    в ООО «Велина» для развития Торгового Комплекса «Рассвет».
+                                    <br><br>
+                                    Эффект от внедрения:
+                                    <br>
+                                    1. Привлечение различных маркетинговых агентств к сотрудничеству с торговым комплексом
+                                    посредством предложения составления отчётов с данными о эмоциональных реакциях аудитории на рекламный контент.
+                                    Уменьшение времени на составление этих отчётов благодаря автоматизации анализа эмоций клиентов при просмотре рекламных роликов.
+                                    <br>
+                                    2. Упрощение отбора кандидатов в процессе проведения собеседований
+                                    за счёт анализа эмоций соискателей при ответе на ключевые вопросы.                                  
+                                </p>
 
-            <!--==================== PROJECTS ====================-->
-            <section class="projects section" id="projects">
-                
-            </section>
+                                <div>
+                                    <h3 class="implementation__company">ООО «ВЕЛИНА»</h3>
+                                    <span class="implementation__subtitle">Май 2024 года</span>
+                                </div>
+                            </div>
 
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
+                            <!--==================== IMPLEMENTATION 2 ====================-->
+                            <div class="implementation__content swiper-slide">
+                                <p class="implementation__description">
+                                    В настоящий момент мы активно ищем партнёров для внедрения нашего веб-сервиса по распознаванию эмоций.
+                                    <br><br>
+                                    Наше решение идеально подходит для различных отраслей,
+                                    таких как маркетинг, HR, образование и здравоохранение.
+                                    <br><br>
+                                    Мы готовы к сотрудничеству с компаниями и организациями, которые стремятся улучшить взаимодействие с клиентами и сотрудниками,
+                                    используя передовые технологии анализа эмоций.
+                                    <br><br>
+                                    Если вы ищете инновационные решения для вашего бизнеса, мы будем рады обсудить возможности интеграции нашего продукта.        
+                                </p>
+
+                                <div>
+                                    <h3 class="implementation__company">Поиск потенциальных партнёров</h3>
+                                    <span class="implementation__subtitle">Открыты к сотрудничеству</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Swipper arrows -->
+                        <div class="swiper-button-next">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+
+                        <div class="swiper-button-prev">
+                            <i class="ri-arrow-left-s-line"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <img src="assets/img/shape-wawes.svg" alt="implementation image" class="implementation__img">
             </section>
 
             <!--==================== CONTACT ====================-->
             <section class="contact section" id="contact">
-                
+                <h2 class="section__title">Свяжитесь с нами</h2>
+                <span class="section__subtitle">Оставьте заявку или задайте вопрос</span>
+
+                <div class="contact__container container grid section__border">
+                    <div class="contact__content">
+                        <h3 class="contact__title">
+                            <i class="ri-chat-3-line"></i> Мы на связи
+                        </h3>
+
+                        <div class="contact__info">
+                            <div class="contact__data">
+                                <span class="contact__data-title">E-mail</span>
+                                <span class="contact__data-info">north13anastasia@gmail.com</span>
+                            </div>
+
+                            <div class="contact__data">
+                                <span class="contact__data-title">WhatsApp</span>
+                                <span class="contact__data-info">+7 (927) 044-74-75</span>
+
+                                <a href="https://wa.me/79270447475?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%F0%9F%91%8B%20%D0%9F%D0%B8%D1%88%D1%83%20%D0%BF%D0%BE%20%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%83%20%D1%81%D1%82%D0%B0%D1%80%D1%82%D0%B0%D0%BF-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20EmoDetect%20%F0%9F%92%BB" target="_blank" class="contact__button">
+                                    Напишите прямо сейчас <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__data">
+                                <span class="contact__data-title">Telegram</span>
+                                <span class="contact__data-info">@space13pirate</span>
+
+                                <a href="https://t.me/space13pirate" target="_blank" class="contact__button">
+                                    Напишите прямо сейчас <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <h3 class="contact__title">
+                            <i class="ri-send-plane-line"></i> Вопросы или предложения по проекту? 
+                        </h3>
+
+                        <form action="" class="contact__form" id="contact-form">
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Имя</label>
+                                <input type="text" name="user_name" required placeholder="Введите Ваше имя" class="contact__form-input" id="contact-name">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Эл.почта</label>
+                                <input type="email" name="user_email" required placeholder="Введите Ваш e-mail для обратной связи" class="contact__form-input" id="contact-email">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label class="contact__form-tag">Вопрос или предложение</label>
+                                <textarea name="user_feedback" placeholder="Опишите свои вопросы или идеи, мы рады обсудить!" id="contact-feedback" class="contact__form-input"></textarea>
+                            </div>
+
+                            <p class="contact__message" id="contact-message"></p>
+
+                            <button type="submit" class="contact__button">
+                                Отправить <i class="ri-mail-send-line"></i>
+                            </button>
+                        </form>
+
+                    </div>
+                </div>
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-            
+            <div class="footer__container container">
+                <h1 class="footer__title">EmoDetect</h1>
+                <span>Стартап-проект, сделанный с <i class="ri-heart-3-line" style="color: hsl(3, 99%, 68%); margin-left: .2rem; vertical-align: -.2rem; font-size: 1.2rem; line-height: 0;"></i></span>
+
+                <ul class="footer__list">
+                    <li>
+                        <a href="#home" class="footer__link">Главная</a>
+                    </li>
+
+                    <li>
+                        <a href="#features" class="footer__link">Функциональность</a>
+                    </li>
+
+                    <li>
+                        <a href="#achievements" class="footer__link">Достижения</a>
+                    </li>
+                </ul>
+
+                <ul class="footer__social">
+                    <a href="https://www.linkedin.com/in/anastasia-cheremisova-ba692a2b6/" target="_blank" class="footer__social-link">
+                        <i class="ri-linkedin-line"></i>
+                    </a>
+                    
+                    <a href="https://github.com/space13pirate" target="_blank" class="footer__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+
+                    <a href="https://t.me/space13pirate" target="_blank" class="footer__social-link">
+                        <i class="ri-telegram-line"></i>
+                    </a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; Анастасия Черемисова, 2024
+                </span>
+            </div>
         </footer>
 
-
         <!--========== SCROLL UP ==========-->
-        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
 
         <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
+        <script src="/assets/js/scrollreveal.min.js"></script>
 
         <!--=============== SWIPER JS ===============-->
-        <script src=""></script>
+        <script src="/assets/js/swiper-bundle.min.js"></script>
         
         <!--=============== EMAIL JS ===============-->
-        
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
